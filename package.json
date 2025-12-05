@@ -1,0 +1,26 @@
+{
+  "name": "conzalt-backend",
+  "version": "1.0.0",
+  "description": "Backend for Conzalt Telegram WebApp + Google Sheets + PDF generation",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "googleapis": "^105.0.0",
+    "nodemon": "^3.0.2",
+    "openai": "^4.21.0",
+    "pdf-lib": "^1.17.1",
+    "telegraf": "^4.12.2",
+    "uuid": "^9.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  }
+}
